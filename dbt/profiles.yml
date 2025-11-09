@@ -1,0 +1,9 @@
+dv4dbt_duckdb_demo:
+  outputs:
+    dev:
+      type: duckdb
+      path: 'duckdb_sample_data.db'
+      schema: 'main'
+      extensions:
+        - icu
+  target: dev

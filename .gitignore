@@ -1,0 +1,12 @@
+/.venv
+/.vscode
+/.idea
+/logs
+
+package-lock.yml
+
+duckdb_sample_data.db
+
+.user.yml
+
+.DS_Store

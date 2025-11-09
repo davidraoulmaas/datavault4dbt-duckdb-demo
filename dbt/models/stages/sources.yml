@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: TPC-H_SF1
+    database: duckdb_sample_data
+    schema: main
+    tables:
+      - name: customer
+      - name: lineitem
+      - name: nation
+      - name: orders
+      - name: part
+      - name: partsupp
+      - name: region
+      - name: supplier
